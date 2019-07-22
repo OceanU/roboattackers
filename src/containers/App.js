@@ -4,14 +4,14 @@ import CardList from '../components/CardList';
 import SearchBox from '../components/SearchBox' 
 import Scroll from '../components/Scroll';
 //import {robots} from './robots';
-import ErrorBoundry from '../components/ErrorBoundry';
+// import ErrorBoundry from '../components/ErrorBoundry';
 import './App.css';
 
 import {setSearchField} from '../actions'
 
 const mapStateToProps= state => {
 	return {
-		searchField: state.searchrobots.searchField
+		searchField: state.searchField
 	}
 }
 
@@ -30,6 +30,7 @@ class App extends Component {
 	}
 
 	componentDidMount () {
+		console.log(this.props.store.getState())
 		fetch('https://jsonplaceholder.typicode.com/users')
 		.then(response=> response.json())
 		.then(users => {this.setState ({robots: users})});	
@@ -52,9 +53,7 @@ class App extends Component {
 		  	<h1 className='f1 pa4'> Robo attackers </h1>
 		  	<SearchBox searchChange={onSearchChange}/>
 			<Scroll>
-				<ErrorBoundry> 
 				<CardList robots={filteredRobots} />
-				</ErrorBoundry>
 			</Scroll>
 		</div>
 	  );	
