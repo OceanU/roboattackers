@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/roboattackers/static/css/main.7a12566b.chunk.css",
+    "main.js": "/roboattackers/static/js/main.ebb2ac39.chunk.js",
+    "main.js.map": "/roboattackers/static/js/main.ebb2ac39.chunk.js.map",
+    "runtime-main.js": "/roboattackers/static/js/runtime-main.f18c879d.js",
+    "runtime-main.js.map": "/roboattackers/static/js/runtime-main.f18c879d.js.map",
+    "static/css/2.eb45ad44.chunk.css": "/roboattackers/static/css/2.eb45ad44.chunk.css",
+    "static/js/2.cf4f0a0f.chunk.js": "/roboattackers/static/js/2.cf4f0a0f.chunk.js",
+    "static/js/2.cf4f0a0f.chunk.js.map": "/roboattackers/static/js/2.cf4f0a0f.chunk.js.map",
+    "index.html": "/roboattackers/index.html",
+    "precache-manifest.352659c7967580f845d8241156becefa.js": "/roboattackers/precache-manifest.352659c7967580f845d8241156becefa.js",
+    "service-worker.js": "/roboattackers/service-worker.js",
+    "static/css/2.eb45ad44.chunk.css.map": "/roboattackers/static/css/2.eb45ad44.chunk.css.map",
+    "static/css/main.7a12566b.chunk.css.map": "/roboattackers/static/css/main.7a12566b.chunk.css.map",
+    "static/media/App.css": "/roboattackers/static/media/Team 401.bcfa3a41.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f18c879d.js",
+    "static/css/2.eb45ad44.chunk.css",
+    "static/js/2.cf4f0a0f.chunk.js",
+    "static/css/main.7a12566b.chunk.css",
+    "static/js/main.ebb2ac39.chunk.js"
+  ]
+}
